@@ -106,3 +106,40 @@ ul{
     text-align: center;
     font-size: 18px;
 }
+.about-1{
+    background-color: #59bd99;
+    height: 100px;
+    text-align: center;
+}
+.about-1 > h4{
+    padding-top: 25px;
+}
+.about-2{
+    background-color: rgb(227, 227, 227);
+    height: 100px;
+    text-align: center;
+}
+.about-2 > a{
+    padding-top: 28px !important;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.about-2 > a:hover{
+    color: #59bd99;
+}
+.about-3{
+    color: #59bd99 !important;
+}
+.about-logo{
+    height: 300px;
+    margin-top: 20px;
+}
+.about-staff{
+    color: white;
+    background-color: black;
+}
+.about-staff > h3{
+    margin-top: 40px !important;
+}
