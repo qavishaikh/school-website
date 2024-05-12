@@ -14,6 +14,11 @@
     width: 100%;
     height: 150px;
     cursor: pointer;
+    display: flex;
+}
+.social-logos1{
+    width: 60px;
+    height: 50px;
 }
 .logo-div{
     width: 100%;
@@ -87,7 +92,7 @@ ul{
     text-align: center;
 }
 .footer-sec{
-    background-image: url("Images/new/sc1.jpeg");
+    background-image: url("Images/sso.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -97,12 +102,12 @@ ul{
 .footer-sec > h1,
 .footer-sec > h2{
     opacity: 1;
-    color: white;
+    color: black;
     text-align: center;
     line-height: 50px;
 }
 .footer-sec > p{
-    color: white;
+    color: black;
     text-align: center;
     font-size: 18px;
 }

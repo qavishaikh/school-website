@@ -8,6 +8,8 @@
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
    <!-- Font Awesome CSS -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,17 +20,21 @@
           <!-- Header Section -->
           <div class="container">
             <div class="row first-row">
-                <div class="col-lg-6 col-md-12 logo-div">
+                <div class="col-lg-6 col-md-12 logo-div" data-aos="flip-left"  data-aos-duration="3000">
                     <img class="logo" src="Images/logo.png" alt="">
                 </div>
 
-                <div class="col-lg-6 col-md-12 social-media">
-                    <i class="fa fa-facebook"  style="font-size:30px; color: blue; margin-right: 10px;"></i> <!-- Facebook -->
+                <div class="col-lg-6 col-md-12 social-media" data-aos="flip-right"  data-aos-duration="3000">
+                    <!-- <i class="fa fa-facebook"  style="font-size:30px; color: blue; margin-right: 10px;"></i> 
                     <i class="fa fa-envelope" style="font-size:30px; color: orange;margin-right: 10px;"></i>
-                    <i class="fa fa-whatsapp" style="font-size:30px; color: green;margin-right: 10px;"></i> <!-- WhatsApp -->
-                    <i class="fa fa-instagram" style="font-size:30px; color: black;margin-right: 10px;"></i> <!-- LinkedIn -->
+                    <i class="fa fa-whatsapp" style="font-size:30px; color: green;margin-right: 10px;"></i> 
+                    <i class="fa fa-instagram" style="font-size:30px; color: black;margin-right: 10px;"></i>  -->
+                    <a href="https://www.facebook.com/MariamInternationalPublicSchoolSystem?mibextid=ZbWKwL"><img class="social-logos1" src="Images/Social/fb1.png" alt=""></a>
+                    <a href="https://whatsapp.com/channel/0029VaeF8b9AO7R7xANt6p2B"><img class="social-logos1" src="Images/Social/whatsapp1.png" alt=""></a>
+                    <a href=""><img class="social-logos1" src="Images/Social/linkdn.png" alt=""></a>
+                    <a href=""><img class="social-logos1" src="Images/Social/email.png" alt=""></a>
                     <br>
-                    <p style="font-size: 18px;  margin-top: -100px;">Get Social with us !</p>
+                    <!-- <p style="font-size: 18px;  margin-top: -100px;">Get Social with us !</p> -->
                 </div>
             </div>
         </div>
@@ -84,7 +90,8 @@
                 <!-- Logo Section Start -->
                 <div class="container">
                     <div class="row">
-                        <div class="col">
+                        <div class="col" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <center>
                             <img src="Images/school.png" class="w-50 about-logo mb-3" alt="">
                             <h1 class="mb-3">Mariam International Public School</h1>
@@ -98,13 +105,13 @@
                 <!-- About Section Start -->
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-6 col-md-12">
+                        <div class="col-lg-6 col-md-12" data-aos="fade-up-right">
                             <img src="Images/team.jpeg" class="w-100" alt="">
                         </div>
 
-                        <div class="col-lg-6 col-md-12 about-staff">
+                        <div class="col-lg-6 col-md-12 about-staff" data-aos="fade-up-right">
                             
-                            <h3>MORE THAN 40 YEARS OF EXPERIENCE IN EDUCATION</h3>
+                            <h3>MORE THAN 23 YEARS OF EXPERIENCE IN EDUCATION</h3>
                             <p>With a cumulative experience of over a decade in education, our esteemed staff 
                                 embodies a wealth of knowledge, expertise, and dedication. Committed to fostering
                                  an environment of academic excellence and personal growth, each member brings a 
@@ -115,7 +122,7 @@
                                   development and growth. With their invaluable contributions, they serve as mentors, 
                                   role models, and pillars of inspiration, shaping the minds and futures of our students
                                    with care, compassion, and unwavering dedication.</p>
-                                   <center><p>Mariam International Public School !</p></center>
+                                   <center><p>Majar (r) Shabbir Ahmed !</p></center>
                         </div>
                     </div>
                 </div>
@@ -133,7 +140,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
